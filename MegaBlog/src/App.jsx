@@ -3,8 +3,7 @@ import "./App.css";
 import authService from "./appwrite/auth";
 import { useEffect, useState } from "react";
 import {login,logout} from './store/authSlice'
-import Header from "./components/header/header";
-import Footer from "./components/footer/Footer";
+import { Footer, Header } from './components'
 import {Outlet} from 'react-router-dom'
 
 function App() {
